@@ -1,0 +1,12 @@
+NAME = "Call of DutyÂ® Black Ops: Declassified"
+TIER = "experimental"
+SPLIT = "64"
+TEST_FRAMES = "1"
+TEST_TIMEOUT = "60"
+RUN_ENV = "RECOMP_GAME_OPTIONS=online,fov DECLASSIFIED_1080P=1 DECLASSIFIED_UNCAPPED=1 RECOMP_ASPECT_HOOK=1 RECOMP_HUD_DRAWS=2d RECOMP_FSR_SUPPORTED=1 RECOMP_FSR_LAST_COLOR=1 RECOMP_RENDER_SCALE=2 RECOMP_PRESENT_MODE=immediate RECOMP_PRESENT_AT_VBLANK=0 RECOMP_CLOCK=real RECOMP_GFX=gpu"
+MODULES = "libc libgxm_es4 libgpu_es4 libfios2 np_matching2 libssl np_common librudp"
+
+[versions."1.00"]
+IHOOKS = "0x81039208:pc_pause_show 0x81039220:pc_pause_hide 0x813736bc:pc_prompt 0x810a456c:pc_throwback 0x811cfa76:pc_mouse_look 0x8114b482:pc_camera_width 0x8114bdb0:pc_tile_width 0x81122f68:pc_sector_width"
+sha256 = "87a69abf822985a83e65fa2da81714f18bcc53ed0b5981001fe2a4b764e0cf1a"
+status = "supported"
