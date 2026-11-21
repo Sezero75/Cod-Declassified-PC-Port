@@ -1,4 +1,4 @@
-Call of Duty: Black Ops Declassified was built for the PS Vita’s screen and twin sticks. Declassified PC brings it to Windows with direct mouse aiming, keyboard controls, and a camera that can show more of the world on an ultrawide monitor.
+Unofficial native Call of Duty: Black Ops Declassified port for pc was built form the PS Vita’s Version. Declassified PC brings it to Windows with direct mouse aiming, keyboard controls, and a camera that can show more of the world on an ultrawide monitor.
 
 You bring your own copy of the game and PS Vita firmware. The build kit uses Project Nativ to recompile the game and the system libraries it needs into a native Windows application. Once setup finishes, launch Declassified.exe to play.
 What changes on PC
